@@ -1,0 +1,73 @@
+.form-conatiner{
+  display: flex;
+  flex-direction: row;
+  /* it will go to next line */
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+li.form{
+  padding: 15px;
+  box-shadow: 0 4px 8px #0003, 0 6px 20px #00000030;
+  margin: 5px;
+  border-radius: 8px;
+  background-color: #cadcf2;
+  width: 300px;
+  
+}
+li{
+  list-style: none;
+}
+
+.button{
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  /* box-shadow: 0 7px #3e3e3e; */
+  margin-bottom: 30px;
+}
+
+button{
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+
+  padding: .6em 1.2em;
+}
+
+.container{
+  padding: 15px;
+  box-shadow: 0 4px 8px #0003, 0 6px 20px #00000030;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 8px;
+  background-color: #cadcf2;
+}
+
+.whole-page{
+  background-color: #25436ee6;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 4px 8px #0003, 0 6px 20px #00000030;
+  margin-top: 15px;
+}
+
+.Screenshot {
+  max-width: 90%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.quota{
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  color: black;
+  width: 240px;
+}
