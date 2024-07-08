@@ -1,7 +1,8 @@
 const APIForm = ({inputs, handleChange, onSubmit}) =>{
 
     const inputsInfo = [
-        "Input a link to any website you would like to take a screenshot of. Do not include https or any protocol in the URL",
+        `Input a link to any website you would like to take a screenshot of. Do not include https or any protocol in the URL.
+         Example input: google.com`,
         "Input which image format you would prefer for your screenshot: jpeg, png, or webp",
         "Input true or false if you would like your website screenshot to not contain any ads",
         "Input true or false if you would like your website screenshot to not contain of those annoying 'allow cookies' banners",
@@ -26,7 +27,7 @@ const APIForm = ({inputs, handleChange, onSubmit}) =>{
                                 type="text" 
                                 name={category}
                                 value={value}
-                                placeholder="EX. google.com"
+                                placeholder="Input this attribute..."
                                 onChange={handleChange}
                                 className="textbox"
                                 />
