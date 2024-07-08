@@ -26,7 +26,7 @@ const APIForm = ({inputs, handleChange, onSubmit}) =>{
                                 type="text" 
                                 name={category}
                                 value={value}
-                                placeholder="Input this attribute..."
+                                placeholder="EX. google.com"
                                 onChange={handleChange}
                                 className="textbox"
                                 />
